@@ -1,0 +1,22 @@
+[project]
+name = "racml"
+version = "0.1.0"
+description = "Acoustic signal processing and machine learning pipeline for rainfall acoustic classification."
+dependencies = [
+    "numpy>=1.22.0",
+    "pandas>=2.0.0",
+    "librosa>=0.10.0",
+    "scikit-maad>=1.3.0",
+    "PyWavelets>=1.4.0",
+    "scipy>=1.10.0",
+    "scikit-learn>=1.2.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "tqdm>=4.65.0",
+    "xgboost>=3.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter>=1.0.0",
+]
